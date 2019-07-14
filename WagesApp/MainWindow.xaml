@@ -61,6 +61,9 @@
                 </DockPanel>
             </materialDesign:DrawerHost.LeftDrawerContent>
             <DockPanel >
+                <DockPanel.Background>
+                    <ImageBrush Opacity ="0.2 "  ImageSource="Picture/main.jpg" Stretch="Fill"/>
+                </DockPanel.Background>
                 <materialDesign:ColorZone Padding="16" materialDesign:ShadowAssist.ShadowDepth="Depth2"
                                             Mode="PrimaryMid" DockPanel.Dock="Top">
                     <DockPanel>
@@ -79,6 +82,7 @@
                     </DockPanel>
                 </materialDesign:ColorZone>
                 <Grid Margin="16" VerticalAlignment="Top">
+                   
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="200" />
                         <ColumnDefinition Width="30" />
@@ -111,11 +115,12 @@
                     <PasswordBox Grid.Row="3" Grid.Column="2" x:Name="PasswordBox" materialDesign:HintAssist.Hint="Password" />
                     <StackPanel Grid.Row="5" Grid.Column="2">
                         <StackPanel Orientation="Horizontal" >
-                            <Button Margin="8 0" Style="{StaticResource MaterialDesignFlatMidBgButton}" ToolTip="MaterialDesignFlatMidButton">确定</Button>
-                            <Button Margin="8 0" Style="{StaticResource MaterialDesignFlatMidBgButton}" ToolTip="MaterialDesignFlatMidButton">取消</Button>
+                            <Button Margin="8 0"  ToolTip="MaterialDesignFlatMidButton">确定</Button>
+                            <Button Margin="8 0"  ToolTip="MaterialDesignFlatMidButton">取消</Button>
                         </StackPanel>
                     </StackPanel>
                 </Grid>
+                
             </DockPanel>
         </materialDesign:DrawerHost>
     </materialDesign:DialogHost>
