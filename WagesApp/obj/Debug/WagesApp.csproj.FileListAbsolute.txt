@@ -25,13 +25,11 @@ D:\liuoldthree\git\WagesApp\WagesApp\bin\Debug\MaterialDesignColors.dll
 D:\liuoldthree\git\WagesApp\WagesApp\bin\Debug\MaterialDesignThemes.Wpf.dll
 D:\liuoldthree\git\WagesApp\WagesApp\bin\Debug\MaterialDesignThemes.Wpf.pdb
 D:\liuoldthree\git\WagesApp\WagesApp\bin\Debug\MaterialDesignThemes.Wpf.xml
-D:\liuoldthree\git\WagesApp\WagesApp\obj\Debug\MainWindow.g.cs
 D:\liuoldthree\git\WagesApp\WagesApp\obj\Debug\App.g.cs
 D:\liuoldthree\git\WagesApp\WagesApp\obj\Debug\WagesApp_Content.g.cs
 D:\liuoldthree\git\WagesApp\WagesApp\obj\Debug\WagesApp_MarkupCompile.cache
 D:\liuoldthree\git\WagesApp\WagesApp\obj\Debug\WagesApp_MarkupCompile.lref
 D:\liuoldthree\git\WagesApp\WagesApp\obj\Debug\App.baml
-D:\liuoldthree\git\WagesApp\WagesApp\obj\Debug\MainWindow.baml
 D:\liuoldthree\git\WagesApp\WagesApp\obj\Debug\WagesApp.g.resources
 D:\liuoldthree\git\WagesApp\WagesApp\obj\Debug\WagesApp.Properties.Resources.resources
 D:\liuoldthree\git\WagesApp\WagesApp\obj\Debug\WagesApp.csproj.GenerateResource.cache
@@ -39,3 +37,6 @@ D:\liuoldthree\git\WagesApp\WagesApp\obj\Debug\WagesApp.csproj.CoreCompileInputs
 D:\liuoldthree\git\WagesApp\WagesApp\obj\Debug\WagesApp.csproj.CopyComplete
 D:\liuoldthree\git\WagesApp\WagesApp\obj\Debug\WagesApp.exe
 D:\liuoldthree\git\WagesApp\WagesApp\obj\Debug\WagesApp.pdb
+D:\liuoldthree\git\WagesApp\WagesApp\obj\Debug\WagesApp.csprojAssemblyReference.cache
+D:\liuoldthree\git\WagesApp\WagesApp\obj\Debug\MainWindow.g.cs
+D:\liuoldthree\git\WagesApp\WagesApp\obj\Debug\MainWindow.baml
