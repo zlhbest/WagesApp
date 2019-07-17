@@ -10,7 +10,12 @@ namespace WageAppTest
         [TestMethod]
         public void TestMethod1()
         {
-           var a =  ExcelTool.Instance.toRead("");
+           var a =  ExcelTool.Instance.toRead("resourcetest/test.xlsx");
+        }
+        [TestMethod]
+        public void TestToWrite()
+        {
+            //var a = ExcelTool.Instance.toWrite("haha", "resourcetest/test.xlsx");
         }
     }
 }

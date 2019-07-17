@@ -33,10 +33,13 @@ D:\liuoldthree\git\WagesApp\WagesApp\obj\Debug\App.baml
 D:\liuoldthree\git\WagesApp\WagesApp\obj\Debug\WagesApp.g.resources
 D:\liuoldthree\git\WagesApp\WagesApp\obj\Debug\WagesApp.Properties.Resources.resources
 D:\liuoldthree\git\WagesApp\WagesApp\obj\Debug\WagesApp.csproj.GenerateResource.cache
-D:\liuoldthree\git\WagesApp\WagesApp\obj\Debug\WagesApp.csproj.CoreCompileInputs.cache
-D:\liuoldthree\git\WagesApp\WagesApp\obj\Debug\WagesApp.csproj.CopyComplete
 D:\liuoldthree\git\WagesApp\WagesApp\obj\Debug\WagesApp.exe
 D:\liuoldthree\git\WagesApp\WagesApp\obj\Debug\WagesApp.pdb
-D:\liuoldthree\git\WagesApp\WagesApp\obj\Debug\WagesApp.csprojAssemblyReference.cache
 D:\liuoldthree\git\WagesApp\WagesApp\obj\Debug\MainWindow.g.cs
 D:\liuoldthree\git\WagesApp\WagesApp\obj\Debug\MainWindow.baml
+D:\liuoldthree\git\WagesApp\WagesApp\bin\Debug\resource\departmentaldailywage.xlsx
+D:\liuoldthree\git\WagesApp\WagesApp\bin\Debug\resource\jobtimeInmonth.xlsx
+D:\liuoldthree\git\WagesApp\WagesApp\bin\Debug\resource\personinf.xlsx
+D:\liuoldthree\git\WagesApp\WagesApp\bin\Debug\resource\personwages.xlsx
+D:\liuoldthree\git\WagesApp\WagesApp\obj\Debug\WagesApp.csprojResolveAssemblyReference.cache
+D:\liuoldthree\git\WagesApp\WagesApp\obj\Debug\WagesApp.csproj.ResolveComReference.cache

@@ -8,6 +8,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resource/departmentaldailywage.xlsx")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resource/jobtimeinmonth.xlsx")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resource/personinf.xlsx")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resource/personwages.xlsx")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("picture/main.jpg")]
 
 
