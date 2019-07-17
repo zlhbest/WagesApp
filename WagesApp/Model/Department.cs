@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
 namespace WagesApp.Model
 {
@@ -12,28 +8,17 @@ namespace WagesApp.Model
     public class Department
     {
         /// <summary>
+        /// 唯一标识
+        /// </summary>
+        public string Id { get; set; }
+        /// <summary>
         /// 部门姓名
         /// </summary>
-        private string Name;
+        public string Name { get; set; }
         /// <summary>
         /// 部门每日工资
         /// </summary>
-        private string WagesOneDay;
-        public void SetName(string name)
-        {
-            Name = name;
-        }
-        public string GetName()
-        {
-            return Name;
-        }
-        public void SetWagesOneDay(string wagesOneDay)
-        {
-            WagesOneDay = wagesOneDay;
-        }
-        public string GetWagesOneDay()
-        {
-            return WagesOneDay;
-        }
+        public string WagesOneDay { get; set; }
+        
     }
 }

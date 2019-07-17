@@ -1,5 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using WagesApp.Model;
+using WagesApp.ModelChange;
 using WagesApp.Utils;
 
 namespace WageAppTest
@@ -10,12 +13,20 @@ namespace WageAppTest
         [TestMethod]
         public void TestMethod1()
         {
-           var a =  ExcelTool.Instance.toRead("resourcetest/test.xlsx");
+          var a =  ExcelTool.Instance.ExcelToDataTable("resourcetest/test.xls","sheet1");
+          var datas = a.DataTableToObject<List<Department>>();
         }
         [TestMethod]
         public void TestToWrite()
         {
-            //var a = ExcelTool.Instance.toWrite("haha", "resourcetest/test.xlsx");
+            List<Department> departments = new List<Department>();//定义数据
+            Department a = new Department();
+            a.Id =RandomNumber.GenerateRandomCode();
+            a.Name = "我是你";
+            a.WagesOneDay = "200";
+            departments.Add(a);
+            string file = "resourcetest/test.xls";
+            var count = ExcelTool.Instance.DataToExcel(file,departments.ToDataTable(), "sheet1",true);
         }
     }
 }
