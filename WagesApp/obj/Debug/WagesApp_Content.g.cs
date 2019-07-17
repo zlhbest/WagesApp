@@ -8,6 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resource/admin.xls")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("picture/main.jpg")]
 
 
