@@ -76,13 +76,41 @@
                     </DockPanel>
                 </materialDesign:ColorZone>
                 <Grid>
-                    <ListView x:Name="person" ItemsSource="{Binding Person}">
+                    <ListView x:Name="personlistview" ItemsSource="{Binding Person}" MouseDoubleClick="personlistview_MouseDoubleClick">
                         <ListView.View>
-                            <GridView>
+                            <GridView x:Name="personview" >
                                 <GridViewColumn Width="Auto" DisplayMemberBinding="{Binding Id}" Header="ID" />
                                 <GridViewColumn Width="Auto" DisplayMemberBinding="{Binding Name}" Header="姓名" />
                                 <GridViewColumn Width="Auto" DisplayMemberBinding="{Binding Department}" Header="人员所在的部门" />
                                 <GridViewColumn Width="Auto" DisplayMemberBinding="{Binding JobTime}" Header="工作时间" />
+                                <GridViewColumn Width="Auto" DisplayMemberBinding="{Binding GrossPay}" Header="税前工资" />
+                                <GridViewColumn Width="Auto" DisplayMemberBinding="{Binding PosttaxWages}" Header="税后工资" />
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView x:Name="departmentlistview" ItemsSource="{Binding Department}" MouseDoubleClick="departmentlistview_MouseDoubleClick">
+                        <ListView.View>
+                            <GridView x:Name="departmentlist">
+                                <GridViewColumn Width="Auto" DisplayMemberBinding="{Binding Id}" Header="ID" />
+                                <GridViewColumn Width="Auto" DisplayMemberBinding="{Binding Name}" Header="名称" />
+                                <GridViewColumn Width="Auto" DisplayMemberBinding="{Binding WagesOneDay}" Header="部门每日工资" />
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView x:Name="jobtimelistview" ItemsSource="{Binding Person}" MouseDoubleClick="jobtimelistview_MouseDoubleClick">
+                        <ListView.View>
+                            <GridView x:Name="jobtimelist">
+                                <GridViewColumn Width="Auto" DisplayMemberBinding="{Binding Id}" Header="ID" />
+                                <GridViewColumn Width="Auto" DisplayMemberBinding="{Binding Name}" Header="姓名" />
+                                <GridViewColumn Width="Auto" DisplayMemberBinding="{Binding JobTime}" Header="工作时间" />
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView x:Name="wageslistview" ItemsSource="{Binding Person}" MouseDoubleClick="wageslistview_MouseDoubleClick">
+                        <ListView.View>
+                            <GridView x:Name="wageslist">
+                                <GridViewColumn Width="Auto" DisplayMemberBinding="{Binding Id}" Header="ID" />
+                                <GridViewColumn Width="Auto" DisplayMemberBinding="{Binding Name}" Header="姓名" />
                                 <GridViewColumn Width="Auto" DisplayMemberBinding="{Binding GrossPay}" Header="税前工资" />
                                 <GridViewColumn Width="Auto" DisplayMemberBinding="{Binding PosttaxWages}" Header="税后工资" />
                             </GridView>

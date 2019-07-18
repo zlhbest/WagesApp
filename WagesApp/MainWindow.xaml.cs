@@ -16,6 +16,7 @@ namespace WagesApp
         public MainWindow()
         {
             InitializeComponent();
+            ItemsListBox.Items.Add("请您先登陆本系统");
         }
         private void OnCopy(object sender, ExecutedRoutedEventArgs e)
         {
@@ -47,7 +48,8 @@ namespace WagesApp
                 if(adminControl.login(Name, Password))
                 {
                     Personal personal = new Personal();
-                    personal.ShowDialog();
+                    personal.Show();
+                    Close();
                 }
                 else
                 {

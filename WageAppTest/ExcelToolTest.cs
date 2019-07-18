@@ -22,7 +22,7 @@ namespace WageAppTest
             List<Department> departments = new List<Department>();//定义数据
             Department a = new Department();
             a.Id =RandomNumber.GenerateRandomCode();
-            a.Name = "我是你";
+            a.Name = "我是n";
             a.WagesOneDay = "200";
             departments.Add(a);
             string file = "resourcetest/test.xls";

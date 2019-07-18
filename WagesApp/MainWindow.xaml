@@ -48,15 +48,13 @@
                                     DockPanel.Dock="Top"
                                     HorizontalAlignment="Right" Margin="16"
                                     IsChecked="{Binding ElementName=MenuToggleButton, Path=IsChecked, Mode=TwoWay}" />
-                    <ListBox x:Name="DemoItemsListBox" Margin="0 16 0 16" SelectedIndex="0"
-                             ItemsSource="{Binding DemoItems}"
-                             >
+                    <ListBox x:Name="ItemsListBox" Margin="0 16 0 16" SelectedIndex="0">
                        
-                        <ListBox.ItemTemplate>
+                        <!--<ListBox.ItemTemplate>
                             <DataTemplate DataType="domain:DemoItem">
                                 <TextBlock Text="{Binding Name}" Margin="32 0 32 0" />
                             </DataTemplate>
-                        </ListBox.ItemTemplate>
+                        </ListBox.ItemTemplate>-->
                     </ListBox>
                 </DockPanel>
             </materialDesign:DrawerHost.LeftDrawerContent>

@@ -78,6 +78,7 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Control\adminControl.cs" />
+    <Compile Include="Control\DepartmentControl.cs" />
     <Compile Include="Control\PersonalControl.cs" />
     <Compile Include="ModelChange\DepartmentToDataTable.cs" />
     <Compile Include="ModelChange\ExcelToObject.cs" />
@@ -87,6 +88,10 @@
     <Compile Include="Model\Person.cs" />
     <Compile Include="Utils\ExcelTool.cs" />
     <Compile Include="Utils\RandomNumber.cs" />
+    <Compile Include="Utils\WagesCalculation.cs" />
+    <Compile Include="View\ChangePopup.xaml.cs">
+      <DependentUpon>ChangePopup.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\Personal.xaml.cs">
       <DependentUpon>Personal.xaml</DependentUpon>
     </Compile>
@@ -102,6 +107,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="View\ChangePopup.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\Personal.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
